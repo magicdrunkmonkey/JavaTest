@@ -9,9 +9,9 @@ public class Main {
         this.scanner = scanner;
     }
 
-    //Dependency Injection via setter method
+    //Dependency Injection via setter method.
     //Allows us to change scanner object reference under runtime.
-    public void setScanner(Scanner scanner){
+    public void setScanner(Scanner scanner) {
         this.scanner = scanner;
     }
 
@@ -26,10 +26,9 @@ public class Main {
     public static void main(String[] args) {
 
         Main main = new Main(new Scanner(System.in));
-
+        int i = main.readInt();
 
         System.out.println(i);
+
     }
-
-
 }
