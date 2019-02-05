@@ -1,6 +1,6 @@
-public class DataSource {
+public interface DataSource {
 
-    public int produceSomeData() {
-        return 0;
-    }
+    public int produceSomeData();
+
+
 }
